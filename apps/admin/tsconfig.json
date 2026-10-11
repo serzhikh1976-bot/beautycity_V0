@@ -1,0 +1,11 @@
+{
+  "extends": "@beautycity/config/typescript/base.json",
+  "compilerOptions": {
+    "outDir": "./.next",
+    "jsx": "preserve",
+    "allowJs": true,
+    "noEmit": true,
+    "plugins": [{ "name": "next" }]
+  },
+  "include": ["src", "next-env.d.ts"]
+}

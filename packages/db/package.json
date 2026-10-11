@@ -1,0 +1,23 @@
+{
+  "name": "@beautycity/db",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio",
+    "lint": "eslint . --max-warnings 0"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.31.0",
+    "postgres": "^3.4.0"
+  },
+  "devDependencies": {
+    "@beautycity/config": "workspace:*",
+    "@types/node": "^20.0.0",
+    "drizzle-kit": "^0.22.0",
+    "typescript": "^5.4.0"
+  }
+}

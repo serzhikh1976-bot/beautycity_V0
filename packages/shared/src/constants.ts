@@ -1,0 +1,11 @@
+export const CANCEL_THRESHOLD_MINUTES = 30;
+export const REMINDER_BEFORE_MINUTES = 35;
+export const AUTO_COMPLETE_AFTER_HOURS = 8;
+export const CHAT_AUTO_CLOSE_HOURS = 3;
+export const REVIEW_DELETE_WINDOW_HOURS = 24;
+export const MIN_ORDERS_FOR_RATING = 10;
+export const MAX_PORTFOLIO_PHOTOS = 5;
+export const MAX_BOOKING_AHEAD_DAYS = 7;
+export const CALENDAR_DEFAULT_DAYS = 3;
+export const DURATION_STEP_MINUTES = 10;
+export const MAX_PENDING_PER_SLOT = 2;

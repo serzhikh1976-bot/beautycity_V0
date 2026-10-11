@@ -1,0 +1,29 @@
+{
+  "name": "@beautycity/worker",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint . --max-warnings 0"
+  },
+  "dependencies": {
+    "@beautycity/db": "workspace:*",
+    "@beautycity/shared": "workspace:*",
+    "bullmq": "^5.8.0",
+    "ioredis": "^5.4.0",
+    "dotenv": "^16.4.0",
+    "drizzle-orm": "^0.31.0",
+    "postgres": "^3.4.0",
+    "pino": "^9.2.0",
+    "pino-pretty": "^11.2.0",
+    "grammy": "^1.25.0"
+  },
+  "devDependencies": {
+    "@beautycity/config": "workspace:*",
+    "@types/node": "^20.0.0",
+    "tsx": "^4.15.0",
+    "typescript": "^5.4.0"
+  }
+}
